@@ -2,7 +2,7 @@
   "name": "2048",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./public/main.js",
   "scripts": {
     "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,7 @@
   "author": "Andrew",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.3",
     "lite-server": "^2.6.1"
   }
 }
